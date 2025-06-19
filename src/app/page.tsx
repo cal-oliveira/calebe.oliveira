@@ -1,7 +1,11 @@
+import Hero from "@/sections/hero";
+import Projects from "@/sections/projects";
+
 export default function Home() {
   return (
     <div>
-      <div></div>
+      <Hero />
+      <Projects />
     </div>
   );
 }
