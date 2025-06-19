@@ -2,6 +2,7 @@
 
 import ButtonWithShadow from "@/app/components/button-with-shadow";
 import { ScrollToProjects } from "@/functions/scrollToProjects";
+import { Code } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -23,7 +24,7 @@ export default function Hero() {
 
       <div>
         <ButtonWithShadow onClick={ScrollToProjects}>
-          <span>&lt;&gt;</span> Ver Projetos
+          <Code className="inline mr-2" size={20} /> Ver Projetos
         </ButtonWithShadow>
       </div>
     </section>
