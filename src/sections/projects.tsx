@@ -188,7 +188,7 @@ export default function Projects() {
                     </div>
                     <div className="flex space-x-3">
                       {project.liveUrl === "" ? (
-                        <span className="text-sm text-[#6C7A89]">
+                        <span className="text-sm text-gray-300">
                           no preview
                         </span>
                       ) : (

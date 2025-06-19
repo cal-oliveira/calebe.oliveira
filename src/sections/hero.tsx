@@ -1,4 +1,7 @@
+"use client";
+
 import ButtonWithShadow from "@/app/components/button-with-shadow";
+import { ScrollToProjects } from "@/functions/scrollToProjects";
 
 export default function Hero() {
   return (
@@ -10,7 +13,7 @@ export default function Hero() {
           </span>
         </h1>
         <p className="text-2xl md:text-3xl text-gray-500 mb-10">
-          Desenvolvedor Front-End
+          Developer Front-End
         </p>
         <p className="max-w-[480px] text-center text-gray-600 mb-10">
           ADS em formação, especialista em tecnologias web modernas e
@@ -19,7 +22,7 @@ export default function Hero() {
       </div>
 
       <div>
-        <ButtonWithShadow>
+        <ButtonWithShadow onClick={ScrollToProjects}>
           <span>&lt;&gt;</span> Ver Projetos
         </ButtonWithShadow>
       </div>
